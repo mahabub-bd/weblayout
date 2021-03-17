@@ -7,7 +7,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   max-width: 100vw;
   min-height: 100vh;
-  background-color: #ffffff;
+  background: #ffffff;
 }
 .clearfix {
   content: " ";
@@ -15,6 +15,19 @@ body {
   clear: both;
 }
 
+.pre_header{background: #f2f2f2;
+margin-left: 300px;
+
+
+
+}
+ 
+.pre_header a{text-decoration: none;
+  color:  #404040;;
+  margin-left: 20px;
+ 
+}
+.pre_header a:hover{color: #ed1c24;}
 header {
   width: 100%;
   height: 95px;
@@ -149,7 +162,7 @@ aside li a:hover {
   align-items: center;
   justify-content: space-around;
 
-  margin: 0 auto;
+  margin: 20px auto;
 }
 .product-1 img,
 .product-2 img {
@@ -180,7 +193,7 @@ footer {
 
   display: flex;
   justify-content: space-between;
-  font-size: 22px;
+  font-size: 20px;
 }
 .copyright a {
   text-decoration: none;
@@ -190,6 +203,7 @@ footer {
 .social {
   margin-right: 70px;
   padding-bottom: 40px;
+  font-size: 24px;
 }
 .social a {
   display: inline-block;
