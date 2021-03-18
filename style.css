@@ -38,7 +38,7 @@ header {
   border-bottom: 0.5px dotted black;
 }
 .container {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
 }
 header .contact {
@@ -52,18 +52,18 @@ header .contact {
 .mail {
   display: flex;
 }
-.phone h5,
+.phone h6,
 .mail h5 {
   margin-left: 30px;
   font-size: 20px;
 }
 .mail a {
   color: black;
-  font-size: 20px;
+  font-size: 18px;
 }
 .phone a {
   color: black;
-  font-size: 20px;
+  font-size: 18px;
 }
 .mail:hover {
   color: #ed1c24;
@@ -238,6 +238,7 @@ footer {
 .about h3 {
   margin-bottom: 10px;
 }
+.about p{text-align: justify;}
 .company {
   width: 30%;
   margin-top: 40px;
